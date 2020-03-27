@@ -78,7 +78,7 @@ class Interfaz {
                     <p>Modelo: ${modelo}</p>
                     <p>Año: ${seguro.anio}</p>
                     <p>Tipo Seguro: ${seguro.tipoSeguro}</p>
-                    <p><strong>Total: </strong> <span style="color:red;">${cantidad}</span></p>
+                    <p><strong>Total: </strong> <span style="color:red;">${cantidad} €</span></p>
                          `;
 
           const spinner = document.querySelector('#cargando img');
